@@ -12,9 +12,9 @@ namespace voicestorm_csharp_bearer
 		static void Main(string[] args)
 		{
 			// TODO: FILL THESE IN!
-			const string community = "";
-			const string accessToken = "";
-			const string tokenSecret = "";
+			const string community = "";	// just the hostname, for example: "sample.api.voicestorm.com"
+			const string accessToken = "";	// obtain from your manager dashboard at https://<community>.voicestorm.com/manage/api
+			const string tokenSecret = "";	// obtain from your manager dashboard at https://<community>.voicestorm.com/manage/api
 
 			// sanity
 			if (string.IsNullOrEmpty(community) || string.IsNullOrEmpty(accessToken) || string.IsNullOrEmpty(tokenSecret))
